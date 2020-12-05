@@ -1,2 +1,10 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
-
+import React from "react";
+export default class App {
+  render() {
+    return (
+      <>
+        <h1> Inside App.js</h1>
+      </>
+    );
+  }
+}
